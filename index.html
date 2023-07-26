@@ -1,12 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
 
   <script>
@@ -14,20 +14,181 @@
       theme: {
         extend: {
           colors: {
-            clifford: '#da373d',
+            prime_color: '#F85559',
           }
         }
       }
     }
   </script>
+<style>
+
+.backg{
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 8px;
+
+}
 
 
 
 
+</style>
 
-    <title>Document</title>
+
+  <title>fruit burst</title>
 </head>
+
 <body>
-    
+
+  <section class="max-w-screen-xl, mx-auto px-8 md:px-16 my-8 ">
+
+    <nav class="flex justify-between items-center bg-prime_color rounded-[400px] px-4 py-2">
+
+      <div class="flex flex-1 list-none justify-between text-white">
+
+
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Shop</li>
+        <li>All fruits</li>
+
+
+      </div>
+
+      <div class="flex items-center flex-1 justify-center">
+
+        <img src="./images/logo.png" alt="">
+
+        <h2 class="text-3xl text-white ml-3 font-bold">Fruit Burst</h2>
+
+      </div>
+
+
+      <div class="flex flex-1 justify-between bg-white rounded-[50px] px-1 py-2">
+
+        <input type="text" placeholder="Search here" class="ml-2">
+        <img src="./images/Frame.png" alt="" class="mr-2">
+
+
+
+
+      </div>
+
+
+    </nav>
+
+  </section>
+
+
+
+  <!-- hero section -->
+  <section class="max-w-screen-xl, mx-auto px-8 md:px-16 my-3  py-5 ">
+
+
+
+
+    <div class="slider">
+
+
+      <div class="carousel w-full h-[100vh] ">
+
+        <div id="slide1" class="carousel-item relative w-full  backg "
+        style="background-image: url(./images/banner1.png) " >
+          <div class="flex  ">
+       <div class="text-white text-start text-xl py-[100px]  px-[400px]">
+
+                           <h1 class="text-5xl text-white font-bold text-center">Exotic tastes at your <br>doorstep</h1>
+                           <p class="mt-4 text-center">We supply highly quality organic products </p>
+                           <button class=" btn bg-prime_color mt-5 mx-[140px] border-none"> Shop Now</button>
+
+
+          </div>
+       </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+       
+
+<div id="slide2" class="carousel-item relative w-full backg "style="background-image: url(./images/banner2.png) " >
+  <div class="flex  ">
+       <div class="text-white text-start text-xl py-[100px]  px-[400px]">
+
+                           <h1 class="text-5xl text-white font-bold text-center">Exotic tastes at your <br>doorstep</h1>
+                           <p class="mt-4 text-center">We supply highly quality organic products </p>
+                           <button class=" btn bg-prime_color mt-5 mx-[140px] border-none"> Shop Now</button>
+
+
+          </div>
+       </div>
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide1" class="btn btn-circle">❮</a> 
+      <a href="#slide3" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+
+<div id="slide3" class="carousel-item relative w-full backg "style="background-image: url(./images/banner3.png) "  >
+  <div class="flex  ">
+       <div class="text-white text-start text-xl py-[100px]  px-[400px]">
+
+                           <h1 class="text-5xl text-white font-bold text-center">Exotic tastes at your <br>doorstep</h1>
+                           <p class="mt-4 text-center">We supply highly quality organic products </p>
+                           <button class=" btn bg-prime_color mt-5 mx-[140px] border-none"> Shop Now</button>
+
+
+          </div>
+       </div>
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide2" class="btn btn-circle">❮</a> 
+      <a href="#slide4" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+
+
+
+<div id="slide4" class="carousel-item relative w-full backg"style="background-image: url(./images/banner1.png) "  >
+
+  <div class="flex  ">
+       <div class="text-white text-start text-xl py-[100px]  px-[400px]">
+
+                           <h1 class="text-5xl text-white font-bold text-center">Exotic tastes at your <br>doorstep</h1>
+                           <p class="mt-4 text-center">We supply highly quality organic products </p>
+                           <button class=" btn bg-prime_color mt-5 mx-[140px] border-none"> Shop Now</button>
+
+
+          </div>
+       </div>
+
+
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide3" class="btn btn-circle">❮</a> 
+      <a href="#slide1" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+
+
+        
+
+
+      </div>
+
+ 
+
+
+<!-- main div -->
+
+    </div>
+
+
+
+
+
+
+  </section>
+
 </body>
+
 </html>
