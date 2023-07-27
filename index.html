@@ -39,9 +39,9 @@
 
   <section class="max-w-screen-xl, mx-auto px-8 md:px-16 my-8 ">
 
-    <nav class="flex justify-between items-center bg-prime_color rounded-[400px] px-4 py-2">
+    <nav class="md:flex justify-between items-center md:bg-prime_color md:rounded-[400px] px-4 py-2">
 
-      <div class="flex flex-1 list-none justify-between text-white">
+      <div class=" flex-1 list-none hidden  md:flex justify-between text-white">
 
 
         <li>Home</li>
@@ -56,7 +56,7 @@
 
         <img src="./images/logo.png" alt="">
 
-        <h2 class="text-3xl text-white ml-3 font-bold">Fruit Burst</h2>
+        <h2 class="text-3xl text-black md:text-white ml-3 font-bold">Fruit Burst</h2>
 
       </div>
 
@@ -79,7 +79,7 @@
 
 
   <!-- hero section -->
-  <section class="max-w-screen-xl, mx-auto px-8 md:px-16 my-3  py-5 ">
+  <section class="max-w-screen-xl, mx-auto px-3 md:px-16 md:my-3  md:py-5  " style="position: relative;">
 
 
 
@@ -87,16 +87,16 @@
     <div class="slider">
 
 
-      <div class="carousel w-full h-[100vh] ">
+      <div class="carousel w-full h-[300px] md:h-[100vh] ">
 
         <div id="slide1" class="carousel-item relative w-full  backg "
           style="background-image: url(./images/banner1.png) ">
           <div class="flex  ">
-            <div class="text-white text-start text-xl py-[100px]  px-[400px]">
+            <div class="text-white text-start text-xl  py-10 md:py-[100px]  md:px-[400px]">
 
-              <h1 class="text-5xl text-white font-bold text-center">Exotic tastes at your <br>doorstep</h1>
+              <h1 class="text-3xl md:text-5xl text-white font-bold text-center">Exotic tastes at your <br>doorstep</h1>
               <p class="mt-4 text-center">We supply highly quality organic products </p>
-              <button class=" btn bg-prime_color mt-5 mx-[140px] border-none"> Shop Now</button>
+              <button class=" btn bg-prime_color mx-[85px] mt-3 md:mt-5 md:mx-[140px] border-none"> Shop Now</button>
 
 
             </div>
@@ -176,6 +176,26 @@
 
     </div>
 
+<!-- 
+<div class="bar flex justify-center w-[1100px] h-[250px] items-center  bg-white " style="position: absolute;">
+
+<div><img src="./images/fruit2.png" alt=""></div>
+<div><img src="./images/fruit3.png" alt=""></div>
+<div><img src="./images/fruit3.png" alt=""></div>
+<div><img src="./images/fruit5.png" alt=""></div>
+<div><img src="./images/fruit7.png" alt=""></div>
+<div><img src="./images/fruit8.png" alt=""></div>
+
+
+
+
+</div> -->
+
+
+
+
+
+
   </section>
 
 
@@ -185,7 +205,7 @@
     <div>
 
 
-      <div class="deal-text flex justify-between">
+      <div class="deal-text md:flex justify-between">
 
         <div>
 
@@ -199,7 +219,7 @@
         </div>
 
 
-        <div class="datetime flex">
+        <div class="datetime mt-3 md:mt-0 flex">
 
           <div class="date flex items-center">
 
@@ -285,7 +305,7 @@
 
 
 
-      <div class="grid grid-cols-4 gap-2 mt-[50px]">
+      <div class="md:grid grid-cols-4 gap-2 mt-[50px]">
 
         <!-- ............. -->
         <div class="card  bg-base-100 shadow-xl">
@@ -534,15 +554,15 @@
 
   <!-- team -->
 
-  <section class="max-w-screen-xl, mx-auto px-8 md:px-16 my-8 mt-[100px] ">
+  <section class="max-w-screen-xl, mx-auto px-3 md:px-16 my-8 mt-[100px] ">
 
     <div style="background-image: url(./images/banner1.png);" class="backg">
 
 
-      <div class="text flex justify-center items-center ">
+      <div class="text md:flex justify-center items-center ">
 
-        <div class="mt-[80px]">
-          <h1 class="text-white font-bold text-5xl mt-3">Meet the team section</h1>
+        <div class="ml-7 mt-5 md:mt-[80px]">
+          <h1 class="text-white font-bold  text-3xl md:text-5xl mt-3">Meet the team section</h1>
 
           <p class="text-white mt-3 ">Contrary to popular belief, is not simply random text.
             It has roots in a piece <br>of classical Latin literature from 45 BC, making it over 2000 years old.</p>
@@ -559,12 +579,12 @@
 
 
 
-      <div class="flex h-[600px] justify-between items-center px-[180px] -mt-[90px]">
+      <div class=" h-[1100px] mt-[50px]  md:flex md:h-[600px] justify-between items-center md:px-[180px] md:-mt-[90px]">
 
 
-        <div class="flex-1 rounded-xl">
+        <div class="flex-1 rounded-xl  ml-[70px] mt-3 md:ml-0 md:mt-0">
 
-          <img src="./images/member1.png" alt="">
+          <img src="./images/member1.png" alt="" class="">
 
           <h2 class="text-xl text-white mt-3 ">Awlad Hossain</h2>
 
@@ -584,7 +604,7 @@
 
 
 
-        <div class="flex-1">
+        <div class="flex-1  ml-[70px] mt-3 md:ml-0 md:mt-0">
 
           <img src="./images/member4.png" alt="">
 
@@ -604,7 +624,7 @@
 
         </div>
 
-        <div class="flex-1">
+        <div class="flex-1  ml-[70px] mt-3 md:ml-0 md:mt-0">
 
           <img src="./images/member2.png" alt="">
 
@@ -624,7 +644,7 @@
 
         </div>
 
-        <div class="flex-1">
+        <div class="flex-1  ml-[70px] mt-2 md:ml-0 md:mt-0">
 
           <img src="./images/member3.png" alt="">
 
@@ -670,7 +690,7 @@
   <section class="max-w-screen-xl, mx-auto px-8 md:px-16 my-8 mt-[100px] ">
 
 
-    <div class="deal-text flex justify-center text-center">
+    <div class="deal-text md:flex justify-center text-center">
 
       <div>
 
@@ -686,9 +706,9 @@
 
     </div>
 
-    <div class="div mt-[80px] flex">
+    <div class="div mt-[80px]  flex-col-reverse md:flex md:flex-row">
 
-      <div class="texts flex-1 mr-2">
+      <div class="texts hidden md:block flex-1 mr-2">
        <!-- ...... -->
         <div class="flex">
 
@@ -787,14 +807,12 @@
 
 
 
-<div class="flex-1 ml-2">
+<div class="flex-1 ml-2 mt-8 md:mt-0 ">
 
+<div class="flex flex-row-reverse ">
 
-      <div class="texts flex-1 ">
        <!-- ...... -->
-        <div class="flex">
-
-          <div class="w-[60px] h-[60px] flex justify-center items-center rounded-[50%] bg-[#1212121A]">
+          <div class="w-[60px] h-[60px] flex  justify-center items-center rounded-[50%] bg-[#1212121A]">
           
           <div >
           <img src="./images/love 1.png" alt="">
@@ -818,9 +836,9 @@
       <!-- ........... -->
 
 
-<div class="flex mt-8">
+<div class="flex flex-row-reverse mt-8">
 
-          <div class="w-[60px] h-[60px] flex justify-center items-center rounded-[50%] bg-[#1212121A]">
+          <div class="w-[60px] h-[60px] flex  justify-center items-center rounded-[50%] bg-[#1212121A]">
           
           <div >
           <img src="./images/group 1.png" alt="">
@@ -843,7 +861,7 @@
         </div>
 
 
-<div class="flex mt-8">
+<div class="flex flex-row-reverse mt-8 ">
 
           <div class="w-[60px] h-[60px] flex justify-center items-center rounded-[50%] bg-[#1212121A]">
           
@@ -885,10 +903,9 @@
 
 
 
-      <!-- main div -->
     </div>
 
-
+  </section>
 
 
 
@@ -908,9 +925,9 @@
         </div>
 
 
-        <div class=" mt-5 flex text-white">
+        <div class=" mt-5 grid grid-cols-2 md:flex text-white">
 
-          <h3 class="">Home</h3>
+          <h3 class="ml-2">Home</h3>
           <h3 class="ml-2">About Us</h3>
 
           <h3 class="ml-2">Shop</h3>
@@ -922,7 +939,7 @@
 
 
         </div>
-        <div class="flex mt-5  justify-center">
+        <div class="flex mt-10  md:mt-5  justify-center">
 
           <img src="./images/facebook 1.png" alt="">
           <img src="./images/twitter (1) 1.png" alt="" class="ml-3">
